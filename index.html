@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hotel HBT</title>
+  <link rel="stylesheet" href="css/style.css">        <!-- Se crea la estructura base y se enlaza el archivo css creado (style.css) a nuestro html -->
+</head>
+
+<body>
+  <header >
+    <nav class="navbar">                             <!-- Creamos un header, que será una barra de navegación superior. Se coloca "nav" que tendrá un menú desplegable en forma de lista 'ul' -->
+      <h1 class="logotipo"><a href="#">HBT</a></h1>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+      <div class="clear"></div>                      <!-- Se crea etiqueta "div" para definir las división lógica existente del contenido de la página web -->
+    </nav>
+  </header>
+
+
+  <section class="showcase">                          <!-- Se crea una clase con un titular, párrafo y un botón dentro de una sección, que serán modelados en CSS  -->
+    <div class="showcase-content">
+      <h1>Enjoy your Stay</h1>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus magnam nisi magni pariatur. Iure deserunt esse, culpa omnis doloribus doloremque reiciendis distinctio, quis eum aperiam, cumque atque. Quisquam, quibusdam officia!</p>
+      <a href="#" class="btn">About our hotel</a>
+    </div>
+  </section>
+
+
+  <section class="home-info">                         <!-- Con el elemento "aside" representamos la sección. Se coloca información relacionada con el contenido. Introducimos la foto en el CSS (fl, flotante izquierda), a la derecha un artículo con la historia de nuestro hotel (fr, flotante derecha) y el botón -->
+    <aside class="fl">
+    </aside>
+    <article class="fr">
+      <h2>The History of our Hotel</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ut quibusdam non ipsum consequuntur libero p</p>
+      <a href="#" class="btn_btn_secondary">About our hotel</a>
+    </article>
+    <div class="clear"></div>
+  </section>
+
+
+  <section class="features">                          <!-- Se crean las tres cajas inferiores, compuesta de su clase, título y artículo, se aplica un flexbox para alinear las cajas en CSS -->
+    <article class="box">
+      <h3>Great Location</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+    <article class="box box-orange">
+      <h3>Free Meals</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+    <article class="box">
+      <h3>Fitness room</h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+    </article>
+  </section>
+
+
+  <footer>                                          <!-- Se crea la sección del contenido de la parte inferior a través del "footer" -->
+    <p>Hotel BT &copy; 2022. All right</p>
+  </footer>
+</body>
+</html>
